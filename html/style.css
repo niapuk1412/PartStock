@@ -68,7 +68,7 @@ form .txt_field{
 }
 .pass{
     float: left;
-    margin: 5px 0 10px 0;
+    margin: 10px 0 10px 0;
     color: #a6a6a6;
     cursor: pointer;
 }
@@ -82,14 +82,14 @@ form .txt_field{
 }
 span.submit{
     float: right;
-    margin: 5px 0 10px 0;
+    margin: 10px 0 10px 0;
 }
 .submit a {
-    color: blue;
+    color: #2691d9;
+    text-decoration: none;
 }
 .submit:hover a {
-    opacity: 0.8;
-    color: green;
+    text-decoration: underline;
 }
 input[type="submit"]{
     width: 100%;
@@ -98,4 +98,12 @@ input[type="submit"]{
     background: #2691d9;
     border-radius: 25px;
     font-size: 18px;
+    color:#e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+input[type="submit"]:hover{
+    border-color: #2691d9;
+    transition: .5s;
 }
